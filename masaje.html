@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Jai Maa Yoga</title>
+</head>
+<body>
+    <nav>
+        <div class="nav_logo">
+            <img src="images/logo.png" alt="logo">
+            <span>Jai Maa Yoga</span>
+        </div>
+         <ul class="nav_links">  
+            <li class="masage_link"><a href="index.html">Menú Principal</a></li>
+        </ul>
+    </div>
+    
+    </div>
+    <script src="app.js"></script>
+    <script src="index.js"></script>
+
+    </nav>
+    <header id="home">
+        <div class="section_container header_container">
+            <div class="header_content">
+                <h1>Sesiones de masaje</h1>
+                <h2>Escucha tu cuerpo</h2>
+                <a class="index-btn" href="https://wa.me/34655121070?text=¡Hola!%20Me%20gustaría%20obtener%20más%20información%20sobre%20las%20clases.%20Gracias!">Pedir una sesión</a>
+            </div>
+            <div class="header_image">
+                <img src="images/msj1.jpg" alt="header" />
+            </div>
+        </div>
+   </header>
+
+   <section class="section_container why_container">
+    <div class="why_image" id="why_image">
+        <img src="images/msj2.jpg" alt="why yoga" />
+    </div>
+    <div class="why_content">
+        <div class="why_content">
+            <h2 class="section_header">Beneficios del masaje</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, in. Beatae tenetur ipsa nobis consequatur, ut provident doloribus veritatis voluptas amet error modi ipsum autem officia iure doloremque quasi at numquam sint inventore quibusdam unde cupiditate velit! Nemo, minus vero.</p>
+            
+        </div>
+    </div>
+ </section>
+
+ 
+<!--INICIO GALERÍA-->
+<div class="conteiner">
+    <h1>GALERÍA DE IMÁGENES</h1>
+    <div class="image_conteiner">
+        <div class="image"><img src="images/msj4.jpg" alt=""></div>
+        <div class="image"><img src="images/msj5.jpg" alt=""></div>
+        <div class="image"><img src="images/msj6.jpg" alt=""></div>
+        <div class="image"><img src="images/msj2.jpg" alt=""></div>
+        
+       
+    </div>
+    <div class="popup_image">
+        <span>&times;</span>
+        <img src="images/classes-1.jpg" alt="">
+    </div>
+</div>
+
+<div class="conteiner">
+    <h1>VÍDEOS</h1>
+    <div class="image_conteiner">
+        <figure class="animate-box">
+            
+        </figure>   
+        
+       
+        
+       
+    </div>
+    <div class="popup_image">
+        <span>&times;</span>
+        <img src="images/classes-1.jpg" alt="">
+    </div>
+</div>
+
+<script>
+    document.querySelectorAll(".image_conteiner img").forEach(image =>{
+        image.onclick = () => {
+            document.querySelector(".popup_image").style.display = "block";
+            document.querySelector(".popup_image img").src = image.getAttribute("src");
+        }
+    });
+
+    document.querySelector(".popup_image span").onclick = () =>{
+        document.querySelector(".popup_image").style.display = "none";
+    }
+
+
+</script>
+<!--FIN GALERÍA-->
+ 
+<!--TESTIMONIOS-->
+<section class="section_container stories_container" id="stories">
+    <p class="section_subheader">TESTIMONIOS</p>
+    <!-- <h2 class="section_header">Successful Stories</h2> -->
+    <div class="stories_grid">
+      <div class="stories_card">
+        <div class="stories_author">
+            <img src="images/stories-1.jpg" alt="author" />
+            <div class="stories_author_details">
+              <h4>Blanca</h4>
+              <h6>Paciente</h6>
+            </div>
+          </div>
+        <div class="stories_content">
+          <span><i class="ri-double-quotes-l"></i></span>
+          <p>
+            "En estos años ( desde 2019 ) he dejado la placa dental de descarga (mandíbula liberada). El nudo-entresijo de la escápula liberado. Los tendones del pie, el cuello, los hombros  recuperan la flexibilidad perdida..
+Todas mis emociones encuentran en el masaje un momento para ganar calma y reposo, los pensamientos se hacen más tolerables. 
+Y así aprendo a endender los mensajes de mi cuerpo... y a cuidarlo."
+          </p>
+        </div>
+        
+      </div>
+      <div class="stories_card">
+        <div class="stories_author">
+            <img src="images/stories-2.jpg" alt="author" />
+            <div class="stories_author_details">
+              <h4>María del Carmen M.G.</h4>
+              <h6>Paciente</h6>
+            </div>
+          </div>
+        <div class="stories_content">
+          <span><i class="ri-double-quotes-l"></i></span>
+          <p>
+            "Quiero expresar mi profundo agradecimiento a Victoria por su dedicación y excelencia durante estos cuatro años. Su trabajo va más allá de lo físico, convirtiéndose en una experiencia que conecta el cuerpo, la mente y el espíritu de manera única.
+Cada sesión no solo ofrece relajación, sino también un espacio para reconectar con mi esencia y encontrar equilibrio. Su capacidad para transmitir calma y crear un ambiente de profunda armonía refleja un verdadero don que valoro enormemente.
+Gracias por su compromiso, su sensibilidad y por aportar bienestar en todas sus formas. Es un privilegio contar con una profesional tan especial."
+
+          </p>
+        </div>
+
+        <div class="stories_card">
+            <div class="stories_author">
+                <img src="images/stories-2.jpg" alt="author" />
+                <div class="stories_author_details">
+                  <h4>María del Carmen M.G.</h4>
+                  <h6>Paciente</h6>
+                </div>
+              </div>
+            <div class="stories_content">
+              <span><i class="ri-double-quotes-l"></i></span>
+              <p>
+                "Quiero expresar mi profundo agradecimiento a Victoria por su dedicación y excelencia durante estos cuatro años. Su trabajo va más allá de lo físico, convirtiéndose en una experiencia que conecta el cuerpo, la mente y el espíritu de manera única.
+    Cada sesión no solo ofrece relajación, sino también un espacio para reconectar con mi esencia y encontrar equilibrio. Su capacidad para transmitir calma y crear un ambiente de profunda armonía refleja un verdadero don que valoro enormemente.
+    Gracias por su compromiso, su sensibilidad y por aportar bienestar en todas sus formas. Es un privilegio contar con una profesional tan especial."
+    
+              </p>
+            </div>
+        
+      </div>
+      
+        
+      </div>
+    </div>
+  </section>
+
+
+
+<!--FIN TESTIMONIOS-->
+
+<!--<section class="banner">
+    <div class="section_container banner_container">
+        <div class="banner_card">
+            <h4>50</h4>
+            <p>Clientes satisfechos</p>
+        </div>
+        <div class="banner_card">
+            <h4>25</h4>
+            <p>Retiros</p>
+        </div>
+        <div class="banner_card">
+            <h4>15</h4>
+            <p>Años de experiencia</p>
+        </div>
+        <div class="banner_card">
+            <h4>50</h4>
+            <p>Clientes satisfechos</p>
+        </div>
+    </div>
+</section>-->
+
+
+
+
+
+<footer class="footer" id="contact">
+    <div class="section_container footer_container">
+        <div class="footer_col">
+            <div class="footer_logo"><a href="">Jai Maa Yoga</a></div>
+        </div>
+        <div class="footer_col">
+            <p>Calle Arriba 7, Mazagón 21130, Huelva</p>
+        </div>
+        <div class="footer_col">
+            <div class="footer_socials">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="https://www.instagram.com/vicn_natura_ness127/"><i class="ri-instagram-line"></i></a>
+                <a href="mailto:forita74@gmail.com"><i class="ri-mail-line"></i></a>
+                <!--<a href="#"><i class="ri-phone-line"></i></a>-->
+                <a href="https://wa.me/34655121070?text=¡Hola!%20Me%20gustaría%20obtener%20más%20información%20sobre%20las%20clases.%20Gracias!"a><i class="ri-whatsapp-line"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="section_container footer_bar">
+        Copyright © 2024 Jai Maa Yoga. Todos los derechos reservados.
+    </div>
+</footer>
+
+   <script src="main.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

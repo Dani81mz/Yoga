@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Jai Maa Yoga</title>
+</head>
+<body>
+    <nav>
+        <div class="nav_logo">
+            <img src="images/logo.png" alt="logo">
+            <span>Jai Maa Yoga</span>
+        </div>
+         <ul class="nav_links">  
+            <li class="link"><a href="#home">Menú Principal</a></li>
+            <li class="link"><a href="#why_image">¿Porqué Yoga?</a></li>
+            <li class="link"><a href="#membership">Me apunto</a></li>
+            <li class="link"><a href="#stories">Testimonios</a></li>
+            <!-- <li class="link"><a href="blog3.html">Blog</a></li> -->
+            <!-- <li class="link"><a href="bloc.html">Bloc</a></li> -->
+            <li class="link"><a href="masaje.html">Masaje</a></li>
+            <li class="link"><a href="#contact">Contacto</a></li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            <li class="link"><a href="#home">Menú Principal</a></li>
+            <li class="link"><a href="#why_image">¿Porqué Yoga?</a></li>
+            <li class="link"><a href="#membership">Me apunto</a></li>
+            <li class="link"><a href="#stories">Testimonios</a></li>
+            <!-- <li class="link"><a href="blog3.html">Blog</a></li> -->
+            <li class="link"><a href="masaje.html">Masaje</a></li>
+            <li class="link"><a href="#contact">Contacto</a></li>
+        </ul>
+    </div> 
+    </div>
+    <script src="app.js"></script>
+    </nav>
+    <script>
+        function showSidebar() {
+            document.querySelector(".sidebar").style.display = "flex";
+        }
+
+        function hideSidebar() {
+            document.querySelector(".sidebar").style.display = "none";
+        }
+    </script>
+    <!-- <div id="hamburger-icon" onclick="toggleMobileMenu(this)"> 
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+            <li><a href="#home">Menú Principal</a></li>
+            <li><a href="#why_image">¿Porqué Yoga?</a></li>
+            <li><a href="#membership">Me apunto</a></li>
+            <li><a href="#stories">Testimonios</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="masaje.html">Masaje</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    
+ </div>-->
+</div>
+<script src="index.js"></script>
+    <header id="home">
+        <div class="section_container header_container">
+            <div class="header_content">
+                <h1>Yoga Efectivo</h1>
+                <h2>Practica Yoga hoy para un mejor día mañana</h2>
+                <a class="index-btn" href="mailto:forita74@gmail.com">Pedir una sesión de prueba gratis</a>
+            </div>
+            <div class="header_image">
+                <img src="images/header.jpg" alt="header" />
+            </div>
+        </div>
+   </header>
+
+   <section class="section_container why_container">
+    <a href="https://wa.me/34697170319?text=Me%20gustaría%20pedir%20una%20cita.%20Gracias!" class="whatsapp" target="_blank">
+        <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+    <div class="why_image" id="why_image">
+        <img src="images/why.jpg" alt="why yoga" />
+    </div>
+    <div class="why_content">
+        <div class="why_content">
+            <h2 class="section_header">¿Porqué deberías practicar Yoga</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, assumenda autem aspernatur ea voluptas delectus minima esse aliquam mollitia sunt.</p>
+            <ul>
+                <li>
+                    <span><i class="ri-checkbox-circle-fill"></i></span>
+                    aumenta tu poder mental
+                </li>
+                <li>
+                    <span><i class="ri-checkbox-circle-fill"></i></span>
+                    te ayuda a respirar mejor
+                </li>
+                <li>
+                    <span><i class="ri-checkbox-circle-fill"></i></span>
+                    da sentido al día a día
+                </li>
+                <li>
+                    <span><i class="ri-checkbox-circle-fill"></i></span>
+                    mejora tu fuerza
+                </li>
+                <li>
+                    <span><i class="ri-checkbox-circle-fill"></i></span>
+                    te ayuda a concentrarte
+                </li>
+            </ul>
+
+        </div>
+    </div>
+ </section>
+
+ <section class="hero" id="hero">
+    <div class="section_container hero_container">
+        <div class="hero_card">
+            <span><img src="images/icon-1.png" alt="hero" /></span>
+            <h4>Un Modo de Vida Sano</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae placeat repellendus, odio ratione sint assumenda.
+            </p>
+        </div>
+
+                <div class="hero_card">
+            <span><img src="images/icon-2.png" alt="hero" /></span>
+            <h4>Equilibrio cuerpo/mente</h4>
+            <p>
+                A través de posturas y respiración consciente, la práctica del Yoga ayuda a tener un cuerpo flexible, fuerte, a la vez que se cultiva la paz interior.
+            </p>
+        </div>
+
+        <div class="hero_card">
+            <span><img src="images/icon-3.png" alt="hero" /></span>
+            <h4>La Meditación</h4>
+            <p>
+                Descubre la serenidad interior cultivando una profunda conexión con el momento presente.
+            </p>
+        </div>
+
+        <div class="hero_card">
+            <span><img src="images/icon-4.png" alt="hero" /></span>
+            <h4>Cúidate</h4>
+            <p>
+                Aprnde a escuchar tu cuerpo consiguiendo un estado de profunda quietud mental. 
+            </p>
+        </div>
+    </div>
+ </section>
+<!--INICIO GALERÍA-->
+<div class="conteiner">
+    <h1>GALERÍA DE IMÁGENES</h1>
+    <div class="image_conteiner">
+        <div class="image"><img src="images/classes-1.jpg" alt=""></div>
+        <div class="image"><img src="images/classes-2.jpg" alt=""></div>
+        <div class="image"><img src="images/classes-3.jpg" alt=""></div>
+        <div class="image"><img src="images/classes-4.jpg" alt=""></div>
+        <div class="image"><img src="images/classes-5.jpg" alt=""></div>
+        <div class="image"><img src="images/classes-6.jpg" alt=""></div>
+    </div>
+    <div class="popup_image">
+        <span>&times;</span>
+        <img src="images/classes-1.jpg" alt="">
+    </div>
+</div>
+
+<div class="conteiner">
+    <h1>VÍDEOS</h1>
+    <div class="image_conteiner">
+       
+        <figure class="animate-box">
+           
+        </figure>      
+    </div>
+    <div class="popup_image">
+        <span>&times;</span>
+        
+    </div>
+</div>
+
+<script>
+    document.querySelectorAll(".image_conteiner img").forEach(image =>{
+        image.onclick = () =>{
+            document.querySelector(".popup_image").style.display = "block";
+            document.querySelector(".popup_image img").src = image.getAttribute("src");
+        }
+    });
+
+    document.querySelector(".popup_image span").onclick = () =>{
+        document.querySelector(".popup_image").style.display = "none";
+    }
+
+
+</script>
+<!--FIN GALERÍA-->
+ <section class="membership" id="membership">
+    <div class="section_container membership_container">
+        <p class="section_subheader">TARIFAS</p>
+        <h2 class="section_header">PACKS ALUMNOS</h2>
+        <div class="membership_grid">
+            <div class="membership_card">
+                <h4>Tarifa Año</h4>
+                <h2><sup>€</sup>1000</h2>
+                <h3>Para 1 Año</h3>
+                <h4>DISFRUTA DE TODAS LAS VENTAJAS</h4>
+                <p>Acceso ilimitado</p>
+                <p>Monitor de grupo</p>
+                <p>Acceso a retiros</p>
+                <p>Orientación física</p>
+                <button class="btn membership_btn">EMPIEZA YA</button>
+            </div>
+            <div class="membership_card">
+                <h4>Tarifa Mensual</h4>
+                <h2><sup>€</sup>3000</h2>
+                <h3>Para 1 Año</h3>
+                <h4>DISFRUTA DE TODAS LAS VENTAJAS</h4>
+                <p>Acceso ilimitado</p>
+                <p>Monitor de grupo</p>
+                <p>Monitor de grupo</p>
+                <p>Orientación física</p>
+                <button class="btn membership_btn">EMPIEZA YA</button>
+            </div>
+            <div class="membership_card">
+                <h4>Tarifa Semanal</h4>
+                <h2><sup>€</sup>90</h2>
+                <h3>Para 1 Semana</h3>
+                <h4>DISFRUTA DE TODAS LAS VENTAJAS</h4>
+                <p>Monitor de grupo</p>
+                <p>Orientación física</p>
+                <p>Orientación física</p>
+                <p>Orientación física</p>
+                <button class="btn membership_btn">EMPIEZA YA</button>
+            </div>
+        </div>
+    </div>
+ </section>
+<!--TESTIMONIOS-->
+<section class="section_container stories_container" id="stories">
+    <p class="section_subheader">TESTIMONIOS</p>
+    <!-- <h2 class="section_header">Successful Stories</h2> -->
+    <div class="stories_grid">
+      <div class="stories_card">
+        <div class="stories_author">
+            <img src="images/stories-1.jpg" alt="author" />
+            <div class="stories_author_details">
+              <h4>Belén</h4>
+              <h6>Alumna</h6>
+            </div>
+          </div>
+        <div class="stories_content">
+          <span><i class="ri-double-quotes-l"></i></span>
+          <p>
+            This yoga website has been a game-changer for me. The variety of
+            classes and guided sessions have not only improved my flexibility
+            but also brought a sense of calm to my hectic days.
+          </p>
+        </div>
+        
+      </div>
+      <div class="stories_card">
+        <div class="stories_author">
+            <img src="images/stories-2.jpg" alt="author" />
+            <div class="stories_author_details">
+              <h4>Jesús</h4>
+              <h6>Alumno</h6>
+            </div>
+          </div>
+        <div class="stories_content">
+          <span><i class="ri-double-quotes-l"></i></span>
+          <p>
+            The tailored sessions and expert guidance have not only eased my
+            discomfort but also boosted my overall well-being. A fantastic
+            resource for both beginners and experienced yogis.
+          </p>
+        </div>
+        
+      </div>
+      <div class="stories_card">
+        <div class="stories_author">
+            <img src="images/stories-3.jpg" alt="author" />
+            <div class="stories__author__details">
+              <h4>Dolores</h4>
+              <h6>Alumna</h6>
+            </div>
+          </div>
+        <div class="stories_content">
+          <span><i class="ri-double-quotes-l"></i></span>
+          <p>
+            The on-demand classes allow me to practice whenever I can, and the
+            mindfulness exercises have brought a new level of clarity to my
+            life.A must-visit for anyone seeking holistic wellness.
+          </p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+
+<!--FIN TESTIMONIOS-->
+
+<!--<section class="banner">
+    <div class="section_container banner_container">
+        <div class="banner_card">
+            <h4>50</h4>
+            <p>Clientes satisfechos</p>
+        </div>
+        <div class="banner_card">
+            <h4>25</h4>
+            <p>Retiros</p>
+        </div>
+        <div class="banner_card">
+            <h4>15</h4>
+            <p>Años de experiencia</p>
+        </div>
+        <div class="banner_card">
+            <h4>50</h4>
+            <p>Clientes satisfechos</p>
+        </div>
+    </div>
+</section>-->
+
+
+
+
+
+<footer class="footer" id="contact">
+    <div class="section_container footer_container">
+        <div class="footer_col">
+            <div class="footer_logo"><a href="">Jai Maa Yoga</a></div>
+        </div>
+        <div class="footer_col">
+            <p>Calle Arriba 7, Mazagón 21130, Huelva</p>
+        </div>
+        <div class="footer_col">
+            <div class="footer_socials">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="tel:+34655121070"><i class="ri-phone-fill"></i></a>
+                <a href="https://www.instagram.com/vicn_natura_ness127/"><i class="ri-instagram-line"></i></a>
+                <a href="mailto:forita74@gmail.com"><i class="ri-mail-line"></i></a>
+                <!--<a href="#"><i class="ri-phone-line"></i></a>-->
+                <!-- <a href="https://wa.me/34655121070?text=¡Hola!%20Me%20gustaría%20obtener%20más%20información%20sobre%20las%20clases.%20Gracias!"a><i class="ri-whatsapp-line"></i></a> -->
+            </div>
+        </div>
+    </div>
+    <div class="section_container footer_bar">
+        Copyright © 2024 Jai Maa Yoga. Todos los derechos reservados.
+    </div>
+</footer>
+
+   <script src="main.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
