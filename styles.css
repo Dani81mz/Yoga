@@ -283,17 +283,24 @@ header::before {
 }
 
 .why_content_terapias{
-    display: inline;
+    display: inline-block;
+    align-items: center;
 }
-
-.why_content_terapias img{
-    max-width: 150px;
+.why_content_terapias h2{
+    display: flex;
     text-align: center;
 }
 
+.why_content_terapias img{
+    height: 75%;
+    width: 75%;
+    object-fit: cover;
+}
+
 .why_content_terapias li{
-    align-items: center;
-    display: flex;
+    align-items: flex-end;
+    display: inline-flex;
+    margin-top: 20px;
 }
 
 .hero {
