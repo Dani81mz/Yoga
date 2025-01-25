@@ -150,6 +150,7 @@ nav{
 
 .nav_logo img {
     max-width: 40px;
+    border-radius: 15px;
 }
 
 .nav_logo span {
@@ -229,6 +230,7 @@ header::before {
 .header_image img {
     max-width: 400px;
     margin: auto;
+    border-radius: 10px;
 }
 
 .why_container{
@@ -240,6 +242,7 @@ header::before {
 .why_image img {
     max-width: 550px;
     margin: auto;
+    border-radius: 10px;
 }
 
 .why_content .section_header{
@@ -340,6 +343,77 @@ header::before {
     color: var(--text-light);
 }
 
+/* SPLIDE */
+.content{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider-wrapper{
+    font-size: 30px;
+    color: #aaa;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+.slider{
+    height: 50px;
+    padding-left: 15px;
+    overflow: hidden;
+    
+}
+.slider div{
+    color: #9fb6b6;
+    height: 50px;
+    margin-bottom: 50px;
+    padding: 4px 15px;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+.slider-text1{
+    background: var(--primary-color);
+    animation: slide 7s linear infinite;
+    border-radius: 15px;
+    font-size: 2rem;
+}
+.slider-text2{
+    background: var(--text-light);
+    border-radius: 15px;
+    font-size: 2rem;
+}
+.slider-text3{
+    background: var(--text-light);
+    border-radius: 15px;
+    font-size: 1.5rem;
+}
+.slider-text4{
+    background: var(--text-light);
+    border-radius: 15px;
+    font-size: 2rem;
+}
+.slider-text5{
+    background: var(--primary-color);
+    border-radius: 15px;
+    font-size: 2rem;
+}
+@keyframes slide{
+    0% {margin-top: -300px;}
+    5% {margin-top: -200px;}
+    33% {margin-top: -200px;}
+    38% {margin-top: -100px;}
+    66% {margin-top: -100px;}
+    71% {margin-top: 0px;}
+    100% {margin-top: 0px;}
+}
+
+/* END OFSPLIDE */
+
 .conteiner{
     position: relative;
     min-height: 60vh;
@@ -370,10 +444,11 @@ header::before {
 .conteiner .image_conteiner .image{
     height: 250px;
     width: 350px;
-    border: 5px solid #fff;
+    border: 2px solid #fff;
     box-shadow: 0 5px 15px rgba (0, 0, 0,.1);
     overflow: hidden;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 
@@ -390,6 +465,8 @@ header::before {
     box-shadow: 0 5px 15px rgba (0, 0, 0,.1);
     overflow: hidden;
     cursor: pointer;
+    border: 2px solid #fff;
+    border-radius: 10px;
 }
 
 .conteiner .image_conteiner .animate-box video{
