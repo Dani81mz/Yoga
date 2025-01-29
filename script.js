@@ -20,6 +20,8 @@ function toggleText() {
     hideText.classList.toggle("show");
 }
 
+
+
 window.onload = function(){
     new Splide(".MySplide",{
         type: "loop",

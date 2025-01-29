@@ -141,6 +141,8 @@ nav{
     gap: 10px;
 }
 
+
+
 .btn {
     display: none;
     align-items: center;
@@ -298,6 +300,7 @@ header::before {
     height: 75%;
     width: 75%;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 .why_content_terapias li{
