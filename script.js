@@ -1,24 +1,14 @@
-$(".readmore_btn").on("click", function(){
-    $(this).parent().toggleClass("showContent");
 
-    var replaceText = $(this).parent().hasClass("showContent") ? "ver menos" : "ver más";
-    $(this).text(replaceText);
 
-});
+const sidebar = document.querySelector(".sidebar")
+const toggle = document.getElementById("toggle")
 
-function toggleMobileMenu(menu) {
-    menu.classList.toggle(open);
-}
+toggle.addEventListener("click",function(){
+    sidebar.classList.toggle("show_sidebar")
+})
 
-let hideText_btn = document.getElementById("hideText_btn");
 
-let hideText = document.getElementById("hideText");
 
-hideText_btn.addEventListener("click", toggleText);
-
-function toggleText() {
-    hideText.classList.toggle("show");
-}
 
 
 
