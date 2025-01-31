@@ -18,42 +18,7 @@
 
 /* MENU HAMBURGER */
 
-.hamburger{
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-}
 
-.bar{
-    width: 25px;
-    height: 3px;
-    background-color: #6e6e6e;
-    margin: 4px 0;
-    transition: 0.3s;
-}
-
-@media (max-width: 768px) {
-    .nav_links{
-        display: none;
-        position: absolute;
-        top: 100%;
-        right: 0;
-        background-color: #334;
-        width: 100%;
-        flex-direction: column;
-        text-align: center;
-    }
-    .nav_links li{
-        margin: 15px 0;
-    }
-    .hamburger{
-        display: flex;
-    }
-    .link.show{
-        display: flex;
-        background-color: #334;
-    }
-}
 
 /* FIN MENÚ HAMBURGER */
 
@@ -954,6 +919,7 @@ a.btn.membership_btn{
   
   @media (width < 750px) {
     .nav_links {
+        display: none;
       gap: 0.5rem;
     }
 
