@@ -262,8 +262,18 @@ header::before {
 }
 
 .why_content h2{
-    margin-left: 4rem;
+    /* margin-left: 4rem; */
     margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.why_content_aboutme{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
 }
 
 .why_content_aboutme h2{
