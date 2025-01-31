@@ -16,6 +16,48 @@
   box-sizing: border-box;
 }
 
+/* MENU HAMBURGER */
+
+.hamburger{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar{
+    width: 25px;
+    height: 3px;
+    background-color: #6e6e6e;
+    margin: 4px 0;
+    transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+    .nav_links{
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #334;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav_links li{
+        margin: 15px 0;
+    }
+    .hamburger{
+        display: flex;
+    }
+    .link.show{
+        display: flex;
+        background-color: #334;
+    }
+}
+
+/* FIN MENÚ HAMBURGER */
+
+
 .section_container{
     max-width: var(--max-width);
     margin: auto;
@@ -79,13 +121,6 @@
   
   }
 
-/* MENÚ HAMBURGUESA */
-#toggle{
-    display: none;
-}
-
-
-/* fin hamb */
 
 
 
@@ -268,9 +303,9 @@ header::before {
 
 .why_content_aboutme h2{
     font-weight: bold;
-    text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    
 }
 
 .why_img_about {
@@ -856,13 +891,6 @@ a.btn.membership_btn{
       grid-template-columns: repeat(1, 1fr);
     }
 
-    #toggle{
-        display: block;
-        font-size: 1.5rem;
-        font-weight: 700;
-        color: var(--dark-primary-color);
-        cursor: pointer;
-    }
     
   
     .header_image {

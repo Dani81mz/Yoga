@@ -1,17 +1,6 @@
-const iconoMenu = document.querySelector("#icono-menu"),
-      menu = document.querySelector("#menu");
+const hamburger = document.querySelector("#hamburger")
+const enlaces = document.querySelector("#nav_links")
 
-iconoMenu.addEventListener("click", (e) => {
-
-    menu.classList.toggle("active");
-    document.body.classList.toggle("opacity");
-
-    const rutaActual = e.target.getAttribute("src");
-
-    if(rutaActual == "images/botón hamburguesa.png"){
-        e.target.setAttribute("src","images/cerrar.png");
-    }else{
-        e.target.setAttribute("src","images/botón hamburguesa.png");
-    }
-
-});
+hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("show")
+})
