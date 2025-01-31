@@ -979,9 +979,9 @@ a.btn.membership_btn{
   }
   
   @media (width < 600px) {
-    .nav_links {
+    /*.nav_links {
       display: none;
-    }
+    }*/
     
     
 
@@ -1212,21 +1212,7 @@ a.btn.membership_btn{
         position: fixed;
     }
 
-    .sidebar{
-        position: fixed;
-        top: 0;
-        right: 0;
-        height: 100vh;
-        width: 150px;
-        background-color: white;
-        box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
-        flex-direction: column;
-        list-style: none;
-        text-decoration: none;
-        align-items: center;
-        justify-content: flex-start;
-        display: block;
-    }
+    
 
     .menu-button{
         display: block;
