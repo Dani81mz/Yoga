@@ -303,9 +303,10 @@ header::before {
 
 .why_content_aboutme h2{
     font-weight: bold;
-    margin-left: 2rem;
-    margin-top: 2rem;
-    
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    align-items: center;
 }
 
 .why_img_about {
