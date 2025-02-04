@@ -54,6 +54,11 @@
     color: #84ddb3;
 }
 
+/* NAVBAR RESPONSIVE */
+
+
+
+/* FIN NAVBAR RESPONSIVE */
 
 
 .home{
@@ -128,7 +133,7 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 
-nav{
+nav{ 
     max-width: var(--max-width);
     margin: auto;
     padding: 2rem 1rem;
@@ -179,12 +184,21 @@ nav{
 .link a:hover {
     color: var(--primary-color);
 }
+/* NAVBAR */
+.checkbtn{
+    font-size: 30px;
+    color: #334;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
 
-
-
-
-
-
+/*END NAVBAR */
 
 
 header {
@@ -928,9 +942,42 @@ a.btn.membership_btn{
   }
   
   @media (width < 750px) {
+
+    .checkbtn{
+        display: block;
+    }
+   
+    .link a{
+        color: #0b5457;
+        cursor: pointer;
+        position: relative;
+    }
+    
     .nav_links {
-        display: none;
-      gap: 0.5rem;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        display: inline-block;
+        top: 100px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        line-height: 40px;
+    }
+    .nav_links a{
+        position: relative;
+    }
+
+    
+    /* .nav_links ul { 
+        display: block;
+        margin: 5px 0;
+        line-height: 30px;
+    }*/
+   
+    #check:checked ~ .nav_links {
+        left: 0;
     }
 
     .nav_logo{
@@ -1113,24 +1160,9 @@ a.btn.membership_btn{
     padding-right: 5px;
 }
 
-#load-more{
-    margin-top: 20px;
-    margin-left: 30px;
-    display: inline-block;
-    padding: 13px 30px;
-    border: 1px solid#334;
-    color: #334;
-    font-size: 16px;
-    background-color: #fff;
-    cursor: pointer;
-    align-items: center;
-}
 
-#load-more:hover{
-    background-color: #777;
-    border-color: #64748b;
-    color: #fff;
-}
+
+
 
 .nav_links .masage_link{
     background-color: var(--primary-color);
@@ -1327,55 +1359,12 @@ a.btn.membership_btn{
 
 /* PRINCIPIO hamburguesa */
 
-.menu-button{
-    display: none;
-}
-
-.sidebar{
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 150px;
-    background-color: white;
-    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
-    flex-direction: column;
-    list-style: none;
-    text-decoration: none;
-    align-items: center;
-    justify-content: flex-start;
-    display: none;
-}
 
 
-.sidebar li{
-    width: 50%;
-    justify-content: space-between;
-    display: flex;
-}
 
-.sidebar a {
-    width: 50%;
-}
-
-@media(max-width: 800px) {
-    .menu-button {
-        display: block;
-    }
-}
-
-@media(max-width: 400px) {
-    .sidebar {
-        width: 100%;
-    }
-
-    .menu-button {
-        display: flex;
-        position: fixed;
-    }
 
     
-}
+
 
 
 

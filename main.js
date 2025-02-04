@@ -1,10 +1,5 @@
 
-const hamburger = document.querySelector("#hamburger")
-const enlaces = document.querySelector("#nav_links")
 
-hamburger.addEventListener("click", () => {
-    navLinks.classList.toggle("show")
-})
 
 
 
@@ -93,17 +88,7 @@ ScrollReveal().reveal(".photos_card", {
     interval: 500,
 });
 
-const nav = document.querySelector("#nav");
-const abrir = document.querySelector("#abrir");
-const cerrar = document.querySelector("#cerrar");
 
-abrir.addEventListener("click", () => {
-    nav.classList.add("visible");
-});
-
-cerrar.addEventListener("click", () => {
-    nav.classList.remove("visible");
-});
 
 
 
