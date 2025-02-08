@@ -185,18 +185,8 @@ nav{
     color: var(--primary-color);
 }
 /* NAVBAR */
-.checkbtn{
-    font-size: 30px;
-    color: #334;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
-#check{
-    display: none;
-}
+
+
 
 /*END NAVBAR */
 
@@ -1358,6 +1348,7 @@ a.btn.membership_btn{
 }
 
 /* PRINCIPIO hamburguesa */
+
 
 
 
