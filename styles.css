@@ -241,6 +241,8 @@ header::before {
     border-radius: 10px;
 }
 
+
+
 .why_container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1375,6 +1377,7 @@ a.btn.membership_btn{
 
 
 /* FIN BLOG3 */
+
 
 
   

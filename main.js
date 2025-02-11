@@ -3,6 +3,8 @@
 
 
 
+
+
 const scrollRevealOption = {
     distance: "50px",
     origin: "bottom",
