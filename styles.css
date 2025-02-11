@@ -153,9 +153,52 @@ nav{
 .btn {
     display: none;
     align-items: center;
+    margin-top: 40px;
     display: flex;
     
 }
+
+.masaje-button-yoga{
+    padding: 1rem 1.5rem;
+    display: none;
+    align-items: center;
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: var(--white);
+    height: 10px;
+}
+
+.masaje-button-yoga .btn{
+    background-color: #f5b247;
+    padding: 1rem 1.5rem;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    color: var(--white);
+}
+
+.masaje-button-masaje{
+    padding: 1rem 1.5rem;
+    display: none;
+    align-items: center;
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: var(--white);
+    height: 10px;
+}
+
+.masaje-button-masaje .btn{
+    background-color: #f5b247;
+    padding: 1rem 1.5rem;
+    border-radius: 15px;
+    margin-bottom: 200px;
+    color: var(--white);
+}
+
+ 
 
 .nav_logo img {
     max-width: 40px;
@@ -219,14 +262,14 @@ header::before {
 
 .header_content h1{
     margin-bottom: 1rem;
-    font-size: 4rem;
+    font-size: 2.8rem;
     font-weight: 300;
     color: var(--text-dark);
 }
 
 .header_content h2{
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 300;
     color: var(--text-light);
 }
@@ -1189,9 +1232,9 @@ a.btn.membership_btn{
     color: white;
 }
 
-.masage_link:hover{
+/* .masage_link:hover{ 
     background-color: #e19c30;
-}
+}*/
 
 @media (max-width:450px){
 
@@ -1292,7 +1335,7 @@ a.btn.membership_btn{
 
 
 .btn:hover{
-    background-color: #27ae60;
+    background-color: var(--primary-color);
 }
 
 @media screen and (max-width:880px) {
