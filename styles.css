@@ -251,6 +251,7 @@ header::before {
 
 .why_container i{
     color: #25d366;
+    position: fixed;
 }
 
 .why_image img {
