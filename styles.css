@@ -104,7 +104,8 @@
 }
 
 .index-btn {
-    padding: 1rem 1.5rem;
+    padding: .8rem 1.5rem;
+    margin-bottom: 5rem;
     outline: none;
     border: none;
     font-size: 1rem;
@@ -112,7 +113,10 @@
     background-color: var(--primary-color);
     border-radius: 5rem;
     cursor: pointer;
+    align-items: center;
+    text-align: center;
 }
+
 
 
 img{
@@ -268,7 +272,8 @@ header::before {
 }
 
 .header_content h2{
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     font-size: 1.5rem;
     font-weight: 300;
     color: var(--text-light);
@@ -282,6 +287,18 @@ header::before {
     max-width: 500px;
     margin: auto;
     border-radius: 10px;
+}
+
+.header_content p{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    line-height: 1.5rem;
+    color: var(--text-light);
+}
+
+.line p{
+    margin-top: 6rem;
+    line-height: 1.5rem;
 }
 
 
@@ -505,7 +522,7 @@ header::before {
     position: relative;
     min-height: 60vh;
     background: #ddd;
-    margin-top: 4rem;
+    margin-top: .8rem;
     
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
