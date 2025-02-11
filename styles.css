@@ -1259,6 +1259,10 @@ a.btn.membership_btn{
         display: inline-block;
         
     }
+
+    .why_content_aboutme{
+        grid-template-columns: 1, 1fr;
+    }
 }
     
 
