@@ -317,6 +317,11 @@ header::before {
     width: 400px;
 }
 
+.why_img_about img{
+    max-width: 400px;
+    display: auto;
+}
+
 
 .why_content ul{
     list-style: none;
@@ -1232,6 +1237,10 @@ a.btn.membership_btn{
 
     .icono-menu img{
         position: fixed;
+    }
+
+    .why_img_about img{
+        height: 200px;
     }
 
     
