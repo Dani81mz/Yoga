@@ -249,7 +249,7 @@ header::before {
     align-items: center;
 }
 
-.why_container i{
+.why_container .fa-whatsapp{
     color: #25d366;
     position: fixed;
 }
