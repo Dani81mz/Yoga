@@ -1240,7 +1240,8 @@ a.btn.membership_btn{
     }
 
     .why_img_about img{
-        height: 200px;
+        height: 100px;
+        grid-area: 1/1/2/2;
     }
 
     
