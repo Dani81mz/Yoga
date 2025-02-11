@@ -1244,6 +1244,11 @@ a.btn.membership_btn{
         
     }
 
+    .nav_logo span{
+        text-align: center;
+        justify-content: center;
+    }
+
     /* .masage_link{ 
         display: block;
         position: fixed;
