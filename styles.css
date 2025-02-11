@@ -249,6 +249,10 @@ header::before {
     align-items: center;
 }
 
+.why_container i{
+    color: #25d366;
+}
+
 .why_image img {
     max-width: 550px;
     margin: auto;
@@ -288,6 +292,23 @@ header::before {
     margin-top: 1rem;
     margin-bottom: 2rem;
     align-items: center;
+}
+
+.why_content_aboutme p .cursive{
+    font-family: cursive;
+}
+.cursive{
+    
+    font-style: oblique;
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 1px;
+    background: #3b3737;
+    margin-bottom: 30px;
 }
 
 .why_img_about {
