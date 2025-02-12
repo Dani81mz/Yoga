@@ -456,10 +456,13 @@ header::before {
 .wrapper{
     position: relative;
     align-items: center;
-    display: flex;
+    justify-content: center;
+    display: grid;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-top: 50px;
+    margin-bottom: 1px;
 }
 .wrapper h2{
     padding: 0;
@@ -467,6 +470,8 @@ header::before {
     color: var(--text-light);
     font-weight: 600;
     font-size: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .wrapper p{
@@ -489,7 +494,9 @@ header::before {
     content: "";
     font-size: 20px;
     color: var(--primary-color);
+    justify-content: center;
     animation: animate infinite 8s;
+    display: block;
 }
 
 @keyframes animate{
