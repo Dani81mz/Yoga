@@ -496,7 +496,6 @@ header::before {
     color: var(--primary-color);
     justify-content: center;
     animation: animate infinite 8s;
-    display: block;
 }
 
 @keyframes animate{
