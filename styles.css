@@ -1494,6 +1494,7 @@ a.btn.membership_btn{
 
 .contador-contetnedor{
     display: flex;
+    opacity: 3%;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -1507,11 +1508,12 @@ a.btn.membership_btn{
 }
 
 .contador-estilo{
-    display: inline-block;
+    opacity: 3%;
+    display: inline-flex;
     background-color: #ddd;
     color: #333;
     font-size: 24px;
-    margin-top: 20px;
+    margin-top: 40px;
     font-weight: bold;
     padding: 8px 16px;
     border-radius: 4px;

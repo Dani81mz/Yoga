@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="google-site-verification" content="Co_EcJ71TWYHBOfxXy41wzZnqxm2_kARqZyhN4SKKO0" />
     
+    
     <title>Jai Maa Yoga | Mazagón</title>
 </head>
 
@@ -438,26 +439,27 @@ Tras dejarlo un par de años, lo retome porque necesitaba hacer algo y además m
                 <!--<a href="#"><i class="ri-phone-line"></i></a>-->
                 <!-- <a href="https://wa.me/34655121070?text=¡Hola!%20Me%20gustaría%20obtener%20más%20información%20sobre%20las%20clases.%20Gracias!"a><i class="ri-whatsapp-line"></i></a> -->
             </div>
-            <div class="contador-contenedor">
-                <!-- <p>Contador de visitas <span id="contador" class="contador-estilo"></span></p> -->
-            </div>
-            <script>
-                let visitas = localStorage.getItem("contador-visitas");
-                if (!visitas) {
-                    visitas = 0;
-                }
-
-                visitas++;
-
-                localStorage.setItem("contador-visitas", visitas);
-
-                document.getElementById("contador").textContent = visitas;
-            </script>
+            
         </div>
     </div>
     <div class="section_container footer_bar">
         Copyright © 2024 Jai Maa Yoga. Todos los derechos reservados.
     </div>
+    <div class="contador-contenedor">
+        <p> <span id="contador" class="contador-estilo"></span></p>
+    </div>
+    <script>
+        let visitas = localStorage.getItem("contador-visitas");
+        if (!visitas) {
+            visitas = 0;
+        }
+
+        visitas++;
+
+        localStorage.setItem("contador-visitas", visitas);
+
+        document.getElementById("contador").textContent = visitas;
+    </script>
 </footer>
 
     <!-- SPLIDE -->
