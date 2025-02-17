@@ -248,6 +248,22 @@ Gracias por su compromiso, su sensibilidad y por aportar bienestar en todas sus 
                 <a href="https://wa.me/34655121070?text=¡Hola!%20Me%20gustaría%20obtener%20más%20información%20sobre%20las%20clases.%20Gracias!"a><i class="ri-whatsapp-line"></i></a>
             </div>
         </div>
+        <div class="contador-contenedor">
+            <!-- <p>Contador de visitas <span id="contador" class="contador-estilo"></span></p> -->
+        </div>
+        <script>
+            let visitas = localStorage.getItem("contador-visitas");
+            if (!visitas) {
+                visitas = 0;
+            }
+
+            visitas++;
+
+            localStorage.setItem("contador-visitas", visitas);
+
+            document.getElementById("contador").textContent = visitas;
+        </script>
+    </div>
     </div>
     <div class="section_container footer_bar">
         Copyright © 2024 Jai Maa Yoga. Todos los derechos reservados.

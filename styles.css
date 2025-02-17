@@ -1253,6 +1253,11 @@ a.btn.membership_btn{
     background-color: var(--primary-color);
     border-radius: 10px;
     color: white;
+    align-items: center;
+    display: flex;
+    margin-right: 300px;
+    justify-content: center;
+    text-align: center;
 }
 
 /* .masage_link:hover{ 
@@ -1276,6 +1281,8 @@ a.btn.membership_btn{
         display: block;
         position: fixed;
     }*/
+
+    
 
     .container .box-container{
         grid-template-columns: 1fr;
