@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Clases de Yoga en Mazagon, Masaje en Mazagon, clases de Yoga en Huelva, masaje en Huelva" />
+    <meta name="description" content="Jai Maa Yoga, centro de Yoga integrativo en Mazagón para todas las edades." />
 	<meta name="keywords" content="yoga en Mazagón, clases de yoga en Mazagón, Yoga en Huelva, Yoga integral en Mazagon, Yoga integral en Huelva, Yoga integrativo en Mazagón, Yoga integrativo en Huelva, masaje en Mazagón, masaje terapeutico en Mazagon, masaje terapeutico en Huelva, Yoga Mazagón, masaje Mazagón" />
 	<meta name="robots" content="index. follow">
 	<meta name="author" content="Jai Maa Yoga Mazagón" />
+    <meta name="googlebot" content="index, follow">
+    <meta property="og:description" content="Jai Maa Yoga, centro de Yoga integrativo en Mazagón para todas las edades.">
+    <link rel="alternate" href="https://www.jai-maa-yoga.com/" hreflang="es-ES">
     <link
+    
     href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
     rel="stylesheet"
 />
@@ -33,7 +37,7 @@
             <i class="fas fa-bars"></i>
         </label>-->
         
-
+<main>
         <nav>
             
 
@@ -120,7 +124,7 @@
         </div>
     </div>
  </section>
-
+</main>
  <section class="hero" id="hero">
     <div class="section_container hero_container">
         <div class="hero_card">
@@ -211,14 +215,14 @@
 <div class="conteiner">
     <h1>GALERÍA DE IMÁGENES</h1>
     <div class="image_conteiner">
-        <div class="image"><img src="images/sesion5dclásica (1).jpg" alt=""></div>
-        <div class="image"><img src="images/sesion5dclásica (3).jpg" alt=""></div>
-        <div class="image"><img src="images/sesion5dclásica (5).jpg" alt=""></div>
-        <div class="image"><img src="images/sesión5dclásica (6).jpg" alt=""></div>
-        <div class="image"><img src="images/sesión5dclásica (7).jpg" alt=""></div>
-        <div class="image"><img src="images/sesiones1 (1).jpg" alt=""></div>
-        <div class="image"><img src="images/sesiones1 (2).jpg" alt=""></div>
-        <div class="image"><img src="images/sesiones1 (4).jpg" alt=""></div>
+        <div class="image"><img src="images/sesion5dclásica (1).jpg" alt="Clase de Yoga en Mazagón, Jai Maa Yoga"></div>
+        <div class="image"><img src="images/sesion5dclásica (3).jpg" alt="Clase de Yoga en Mazagón, Jai Maa Yoga"></div>
+        <div class="image"><img src="images/sesion5dclásica (5).jpg" alt="Clase de Yoga en Mazagón, Jai Maa Yoga"></div>
+        <div class="image"><img src="images/sesión5dclásica (6).jpg" alt="Clase de Yoga en Mazagón, Jai Maa Yoga"></div>
+        <div class="image"><img src="images/sesión5dclásica (7).jpg" alt="Clase de Yoga en Mazagón, Jai Maa Yoga"></div>
+        <div class="image"><img src="images/sesiones1 (1).jpg" alt="Clase de Yoga en Mazagón, Jai Maa Yoga"></div>
+        <div class="image"><img src="images/sesiones1 (2).jpg" alt="Clase de Yoga en Mazagón, Jai Maa Yoga"></div>
+        <div class="image"><img src="images/sesiones1 (4).jpg" alt="Clase de Yoga en Mazagón, Jai Maa Yoga"></div>
     </div>
     <div class="popup_image">
         <span>&times;</span>
@@ -433,6 +437,21 @@ Tras dejarlo un par de años, lo retome porque necesitaba hacer algo y además m
                 <!--<a href="#"><i class="ri-phone-line"></i></a>-->
                 <!-- <a href="https://wa.me/34655121070?text=¡Hola!%20Me%20gustaría%20obtener%20más%20información%20sobre%20las%20clases.%20Gracias!"a><i class="ri-whatsapp-line"></i></a> -->
             </div>
+            <div class="contador-contenedor">
+                <!-- <p>Contador de visitas <span id="contador" class="contador-estilo"></span></p> -->
+            </div>
+            <script>
+                let visitas = localStorage.getItem("contador-visitas");
+                if (!visitas) {
+                    visitas = 0;
+                }
+
+                visitas++;
+
+                localStorage.setItem("contador-visitas", visitas);
+
+                document.getElementById("contador").textContent = visitas;
+            </script>
         </div>
     </div>
     <div class="section_container footer_bar">

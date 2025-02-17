@@ -1483,7 +1483,37 @@ a.btn.membership_btn{
 }
 
 
-/* FIN BLOG3 */
+/* CONTADOR */
+
+.contador-contetnedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    width: 220px;
+    height: 20%;
+    border-radius: 10px;
+    background-color: #6e6e6e;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contador-estilo{
+    display: inline-block;
+    background-color: #ddd;
+    color: #333;
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* END OFCONTADOR */
 
 
 
