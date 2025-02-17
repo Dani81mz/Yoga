@@ -1494,7 +1494,7 @@ a.btn.membership_btn{
 
 .contador-contetnedor{
     display: flex;
-    opacity: 3%;
+    opacity: 5%;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -1508,8 +1508,8 @@ a.btn.membership_btn{
 }
 
 .contador-estilo{
-    opacity: 3%;
-    display: inline-flex;
+    opacity: 5%;
+    display: flex;
     background-color: #ddd;
     color: #333;
     font-size: 24px;
