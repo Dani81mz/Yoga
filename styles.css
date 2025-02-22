@@ -492,10 +492,11 @@ header::before {
 }
 .wrapper span:before{
     content: "";
+    position: static;
     font-size: 20px;
     color: var(--primary-color);
     justify-content: center;
-    animation: animate infinite 8s;
+    animation: animate infinite 16s ease-in-out;
 }
 
 @keyframes animate{
